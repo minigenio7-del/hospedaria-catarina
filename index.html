@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hospedaria Catarina Gamboa - Seu refúgio de paz entre a lagoa, as dunas e o mar na praia da Gamboa, Garopaba - SC. Acomodações aconchegantes com cozinha completa, ar-condicionado, Wi-Fi e estacionamento. Pet friendly.">
+    <meta name="keywords" content="hospedaria gamboa, pousada garopaba, aluguel de temporada gamboa, pousada cataarina gamboa, praia da gamboa sc, pousada pet friendly garopaba">
+    <meta name="author" content="Hospedaria Catarina Gamboa">
+    <title>Hospedaria Catarina Gamboa | Praia da Gamboa, Garopaba - SC</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Preload and load Google Fonts asynchronously (LCP/FCP optimization) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+    </noscript>
+    
+    <!-- FontAwesome Icons (Asynchronous non-blocking loading) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    
+    <!-- Image WebP Fallback Script (Ensures images load even if WebP is missing) -->
+    <script>
+        document.addEventListener('error', function(e) {
+            var target = e.target;
+            if (target && target.tagName && target.tagName.toLowerCase() === 'img') {
+                var picture = target.parentElement;
+                if (picture && picture.tagName.toLowerCase() === 'picture') {
+                    var sources = picture.querySelectorAll('source');
+                    if (sources.length > 0) {
+                        for (var i = 0; i < sources.length; i++) {
+                            sources[i].parentNode.removeChild(sources[i]);
+                        }
+                        var currentSrc = target.src;
+                        target.src = '';
+                        target.src = currentSrc;
+                    }
+                }
+            }
+        }, true);
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Preload Hero Background Image (LCP Optimization) -->
+    <link rel="preload" as="image" href="fotos/vista area.jpeg">
+    
+    <!-- SEO / GEO / AEO JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://hospedariacatarinagamboa.com.br/#business",
+          "name": "Hospedaria Catarina Gamboa",
+          "image": "https://hospedariacatarinagamboa.com.br/fotos/logo.png",
+          "telephone": "+55-48-99900-1222",
+          "url": "https://hospedariacatarinagamboa.com.br",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Maria Fernandes do Nascimento",
+            "addressLocality": "Garopaba",
+            "addressRegion": "SC",
+            "postalCode": "88495-000",
+            "addressCountry": "BR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-27.959393",
+            "longitude": "-48.647185"
+          },
+          "priceRange": "$$",
+          "description": "Seu refúgio de paz na praia da Gamboa, Garopaba - SC. Acomodações aconchegantes com cozinha completa, pet friendly e estacionamento."
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://hospedariacatarinagamboa.com.br/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Qual a distância da Hospedaria Catarina até a Praia da Gamboa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Hospedaria está localizada a poucos metros da praia, aproximadamente a 3-5 minutos de caminhada rápida (cerca de 250 metros), garantindo acesso fácil e rápido ao mar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "As acomodações possuem cozinha privativa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, todos os nossos apartamentos contam com uma cozinha completa e equipada (fogão, geladeira, utensílios de cozinha), proporcionando total liberdade e independência para preparar suas refeições."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "A pousada aceita animais de estimação (Pet Friendly)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim! Somos apaixonados por animais e seu pet é super bem-vindo na Hospedaria Catarina. Pedimos apenas que nos avise no momento da reserva."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como funciona o estacionamento na hospedaria?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oferecemos estacionamento privativo e gratuito dentro da propriedade para a segurança e comodidade do seu veículo durante toda a estadia."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Qual o melhor período para avistar as Baleias Franca na Praia da Gamboa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A temporada oficial de observação das Baleias Franca ocorre de Agosto a Novembro, sendo o auge do avistamento entre Setembro e Outubro, onde é possível observá-las diretamente da orla da Gamboa."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo-link">
+                <picture>
+                    <source srcset="fotos/logo.webp" type="image/webp">
+                    <img src="fotos/logo.png" alt="Logo Hospedaria Catarina Gamboa" class="logo-img">
+                </picture>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-item active">Início</a>
+                <a href="#sobre" class="nav-item">A Pousada</a>
+                <a href="#baleias" class="nav-item">Baleias Franca</a>
+                <a href="#quartos" class="nav-item">Acomodações</a>
+                <a href="#videos" class="nav-item">Vídeos</a>
+                <a href="#fotos" class="nav-item">Galeria</a>
+                <a href="#avaliacoes" class="nav-item">Avaliações</a>
+                <a href="#faq" class="nav-item">FAQ</a>
+                <a href="#localizacao" class="nav-item">Localização</a>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="btn btn-primary open-contact-btn">Reservar Estadia</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="inicio" class="hero-section">
+            <!-- Video Background (Optimized dynamic load) -->
+            <video autoplay muted loop playsinline class="hero-video-bg" poster="fotos/vista area.jpeg" id="heroVideo"></video>
+            <div class="hero-overlay"></div>
+            
+            <div class="container hero-container animate-fade-in-up">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-star text-accent"></i>
+                    <span><strong>4.9</strong> (19 avaliações no Google)</span>
+                </div>
+                <h1 class="hero-title animate-hero-text">Seu refúgio de paz entre a lagoa, as dunas e o mar na Gamboa</h1>
+                <p class="hero-subtitle animate-hero-text">Apartamentos completos e aconchegantes com a hospitalidade calorosa da Dona Catarina. Sinta-se em casa a poucos passos da praia.</p>
+                <div class="hero-ctas animate-hero-text">
+                    <button class="btn btn-large btn-primary open-contact-btn">
+                        <i class="fa-solid fa-calendar-days"></i> Consultar Disponibilidade
+                    </button>
+                    <a href="#sobre" class="btn btn-large btn-secondary">
+                        Conhecer a Pousada
+                    </a>
+                </div>
+            </div>
+            <div class="hero-wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,57.05,18.3,88.47,25.85,152.88,41.34,220.73,50,321.39,56.44Z" class="wave-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Intro Section / Sobre -->
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <div class="grid grid-2-cols align-center">
+                    <div class="about-content reveal">
+                        <span class="section-badge">A Hospedaria</span>
+                        <h2 class="section-title">A verdadeira hospitalidade catarinense na Praia da Gamboa</h2>
+                        <p class="about-text">A <strong>Hospedaria Catarina Gamboa</strong> é o destino perfeito para quem busca descansar com total liberdade e conforto. Nossas acomodações são planejadas para oferecer uma experiência independente, onde você tem a liberdade de cozinhar suas próprias refeições na sua cozinha completa e curtir o ritmo tranquilo da praia.</p>
+                        <p class="about-text">Muito elogiada pela limpeza impecável, ventilação e aconchego, a hospedaria tem como marca registrada a atenção e o carinho da <strong>Dona Catarina</strong>, que está sempre disponível para tornar sua estadia inesquecível.</p>
+                        
+                        <div class="features-mini-grid">
+                            <div class="mini-feature">
+                                <div class="mini-feature-icon"><i class="fa-solid fa-square-parking"></i></div>
+                                <div>
+                                    <h4>Estacionamento Grátis</h4>
+                                    <p>Vaga segura no local para seu veículo.</p>
+                                </div>
+                            </div>
+                            <div class="mini-feature">
+                                <div class="mini-feature-icon"><i class="fa-solid fa-paw"></i></div>
+                                <div>
+                                    <h4>Pet Friendly</h4>
+                                    <p>Seu animal de estimação é muito bem-vindo.</p>
+                                </div>
+                            </div>
+                            <div class="mini-feature">
+                                <div class="mini-feature-icon"><i class="fa-solid fa-umbrella-beach"></i></div>
+                                <div>
+                                    <h4>Vista para os Morros e Mar</h4>
+                                    <p>Contemplação diária da natureza exuberante.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-gallery reveal">
+                        <div class="image-stack">
+                            <picture>
+                                <source srcset="fotos/jardin.webp" type="image/webp">
+                                <img src="fotos/jardin.png" alt="Lindo jardim da Hospedaria Catarina" class="stack-img img-main">
+                            </picture>
+                            <picture>
+                                <source srcset="fotos/entrada.webp" type="image/webp">
+                                <img src="fotos/entrada.png" alt="Entrada aconchegante" class="stack-img img-sub">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Whale Watching Section -->
+        <section id="baleias" class="whales-section">
+            <div class="container">
+                <div class="grid grid-2-cols align-center gap-large">
+                    <div class="whales-image-container reveal">
+                        <picture>
+                            <source srcset="fotos/Baleias.webp" type="image/webp">
+                            <img src="fotos/Baleias.png" alt="Avistamento de Baleias Franca na Gamboa" class="whales-img">
+                        </picture>
+                        <div class="whales-badge">
+                            <span class="whales-badge-title">Temporada Oficial</span>
+                            <span class="whales-badge-date">Agosto a Novembro</span>
+                        </div>
+                    </div>
+                    <div class="whales-content text-white reveal">
+                        <span class="section-badge badge-light">Espetáculo da Natureza</span>
+                        <h2 class="section-title text-white">Observação de Baleias Franca na Gamboa</h2>
+                        <p class="section-desc">A Praia da Gamboa é um dos principais berçários naturais da <strong>Baleia Franca</strong> no Brasil. A partir do mês de <strong>Agosto</strong>, esses gigantes dóceis do oceano visitam a nossa enseada para dar à luz e amamentar seus filhotes.</p>
+                        <p class="section-desc">Devido à geografia da nossa praia, com águas calmas e morros circundantes, é possível avistá-las diretamente da costa, proporcionando uma experiência emocionante e inesquecível para toda a família.</p>
+                        <div class="whales-bullets">
+                            <div class="bullet-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Avistamento direto da praia ou mirantes próximos</span>
+                            </div>
+                            <div class="bullet-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Ideal para viagens de ecoturismo no inverno e primavera</span>
+                            </div>
+                            <div class="bullet-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Hospedagem confortável para curtir a temporada das baleias</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accommodations Section -->
+        <section id="quartos" class="rooms-section">
+            <div class="container">
+                <div class="text-center section-header-center">
+                    <span class="section-badge">Acomodações</span>
+                    <h2 class="section-title">O Conforto e a Praticidade de um Lar</h2>
+                    <p class="section-subtitle">Nossos apartamentos foram pensados para estadias tranquilas, com foco na sua total independência e bem-estar.</p>
+                </div>
+                
+                <div class="room-card reveal">
+                    <div class="room-grid">
+                        <div class="room-image-slider">
+                            <picture>
+                                <source srcset="fotos/quarto_placeholder.webp" type="image/webp">
+                                <img src="fotos/quarto_placeholder.png" alt="Apartamento aconchegante Hospedaria Catarina Gamboa" class="room-img">
+                            </picture>
+                        </div>
+                        <div class="room-details">
+                            <div class="room-header">
+                                <span class="room-tag">Apartamento Completo</span>
+                                <h3>Apartamento com Vista e Cozinha Equipada</h3>
+                            </div>
+                            <p class="room-desc">Espaço super limpo, arejado, bem iluminado e ventilado. Projetado para quem busca a comodidade de preparar suas próprias refeições, curtir momentos de descanso no ar-condicionado e desfrutar de uma estadia sem preocupações.</p>
+                            
+                            <div class="room-amenities">
+                                <div class="amenity-item" title="Cozinha Completa">
+                                    <i class="fa-solid fa-kitchen-set"></i>
+                                    <span>Cozinha Completa</span>
+                                </div>
+                                <div class="amenity-item" title="Ar Condicionado">
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <span>Ar-condicionado</span>
+                                </div>
+                                <div class="amenity-item" title="Wi-Fi de Alta Velocidade">
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <span>Wi-Fi Rápido</span>
+                                </div>
+                                <div class="amenity-item" title="Televisão">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <span>TV</span>
+                                </div>
+                                <div class="amenity-item" title="Estacionamento Grátis">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span>Estacionamento</span>
+                                </div>
+                                <div class="amenity-item" title="Aceitamos Pets">
+                                    <i class="fa-solid fa-paw"></i>
+                                    <span>Pet Friendly</span>
+                                </div>
+                            </div>
+                            
+                            <div class="room-footer">
+                                <div class="room-info-badge">
+                                    <i class="fa-solid fa-circle-info"></i> Aberto o ano todo!
+                                </div>
+                                <button class="btn btn-primary open-contact-btn">Ver Disponibilidade</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="videos" class="videos-section">
+            <div class="container">
+                <div class="text-center section-header-center">
+                    <span class="section-badge">Vídeos</span>
+                    <h2 class="section-title">Conheça o nosso Espaço</h2>
+                    <p class="section-subtitle">Assista aos registros gravados na pousada e sinta um pouco da atmosfera de tranquilidade que espera por você.</p>
+                </div>
+                
+                <div class="grid grid-2-cols gap-large">
+                    <!-- Video Card 1 -->
+                    <div class="video-card reveal">
+                        <div class="video-preview-wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('fotos/area externa.png');">
+                            <a href="https://maps.app.goo.gl/oNTHTPyNMEizbYUK8" target="_blank" rel="noopener" class="play-btn">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </a>
+                            <span class="video-duration">0:59</span>
+                        </div>
+                        <div class="video-info">
+                            <h3>Tour pela Pousada e Vista</h3>
+                            <p>Assista ao vídeo no Google Maps mostrando os detalhes da estrutura externa, o quintal e a belíssima vista para os morros e o mar.</p>
+                            <a href="https://maps.app.goo.gl/oNTHTPyNMEizbYUK8" target="_blank" rel="noopener" class="btn-text">
+                                Assistir no Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Card 2 -->
+                    <div class="video-card reveal">
+                        <div class="video-preview-wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('fotos/entrada.png');">
+                            <a href="https://maps.app.goo.gl/EAibndpFHrNfdKwj8" target="_blank" rel="noopener" class="play-btn">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </a>
+                            <span class="video-duration">0:12</span>
+                        </div>
+                        <div class="video-info">
+                            <h3>Detalhes do Jardim e Acesso</h3>
+                            <p>Um registro rápido focando no jardim florido, entrada da casa e o clima de aconchego e paz que cercam a Hospedaria Catarina.</p>
+                            <a href="https://maps.app.goo.gl/EAibndpFHrNfdKwj8" target="_blank" rel="noopener" class="btn-text">
+                                Assistir no Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="fotos" class="gallery-section">
+            <div class="container">
+                <div class="text-center section-header-center">
+                    <span class="section-badge">Galeria</span>
+                    <h2 class="section-title">Registros da Hospedaria e Região</h2>
+                    <p class="section-subtitle">Clique nas imagens abaixo para ampliá-las e ver mais detalhes do nosso aconchegante espaço.</p>
+                </div>
+                
+                <div class="gallery-grid reveal">
+                    <div class="gallery-item" data-image="fotos/entrada.webp">
+                        <picture>
+                            <source srcset="fotos/entrada.webp" type="image/webp">
+                            <img src="fotos/entrada.png" alt="Entrada e Fachada da Hospedaria Catarina Gamboa" class="gallery-img">
+                        </picture>
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Entrada da Hospedaria</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="fotos/area externa.webp">
+                        <picture>
+                            <source srcset="fotos/area externa.webp" type="image/webp">
+                            <img src="fotos/area externa.png" alt="Área externa com vista da Hospedaria Catarina" class="gallery-img">
+                        </picture>
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Área Externa</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="fotos/jardin.webp">
+                        <picture>
+                            <source srcset="fotos/jardin.webp" type="image/webp">
+                            <img src="fotos/jardin.png" alt="Lindo jardim e pátio florido" class="gallery-img">
+                        </picture>
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Jardim e Pátio</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="fotos/foto aleatoria da praia.webp">
+                        <picture>
+                            <source srcset="fotos/foto aleatoria da praia.webp" type="image/webp">
+                            <img src="fotos/foto aleatoria da praia.png" alt="Bela Praia da Gamboa, Garopaba SC" class="gallery-img">
+                        </picture>
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Praia da Gamboa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials / Avaliações -->
+        <section id="avaliacoes" class="testimonials-section">
+            <div class="container">
+                <div class="text-center section-header-center">
+                    <span class="section-badge text-white">Depoimentos</span>
+                    <h2 class="section-title text-white">O que dizem os nossos hóspedes</h2>
+                    <div class="rating-summary">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span><strong>4.9 de 5</strong> baseado em 19 avaliações no Google Meu Negócio</span>
+                    </div>
+                </div>
+                
+                <div class="testimonials-carousel-wrapper reveal">
+                    <button class="carousel-control prev" id="carouselPrev" aria-label="Depoimento anterior">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="testimonials-carousel" id="testimonialsCarousel">
+                        <!-- Card 1 -->
+                        <div class="testimonial-card active">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                            <p class="testimonial-text">"Excelente estadia, dona Catarina uma excelente pessoa, muito atenciosa, o apartamento excelente, bem equipado, com uma vista incrível, voltaremos com certeza!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar"><i class="fa-solid fa-circle-user"></i></div>
+                                <div>
+                                    <h4 class="author-name">Tiago Monteiro</h4>
+                                    <span class="author-meta">Hóspede Google • 5 estrelas</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                            <p class="testimonial-text">"Lugar super limpo, ventilado e aconchegante!! A Catarina é mega atenciosa e sempre disponível para nos atender !! Recomendo e indico para todos!!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar"><i class="fa-solid fa-circle-user"></i></div>
+                                <div>
+                                    <h4 class="author-name">Francine Pezzi Paim</h4>
+                                    <span class="author-meta">Hóspede Google • 5 estrelas</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 3 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                            <p class="testimonial-text">"É o melhor lugar na Gamboa pra morar. Local agradável com vista para os morros e o mar. Tudo sempre super caprichado."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar"><i class="fa-solid fa-circle-user"></i></div>
+                                <div>
+                                    <h4 class="author-name">Gislene Malaquias</h4>
+                                    <span class="author-meta">Hóspede Google • 5 estrelas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-control next" id="carouselNext" aria-label="Próximo depoimento">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="carousel-dots" id="carouselDots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section (AEO/GEO Optimization) -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="text-center section-header-center reveal">
+                    <span class="section-badge">Dúvidas Frequentes</span>
+                    <h2 class="section-title">Perguntas Frequentes</h2>
+                    <p class="section-subtitle">Tudo o que você precisa saber para planejar sua estadia perfeita na Gamboa.</p>
+                </div>
+                
+                <div class="faq-grid reveal">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Qual a distância da Hospedaria Catarina até a Praia da Gamboa?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A Hospedaria está localizada a poucos metros da praia, aproximadamente a 3-5 minutos de caminhada rápida (cerca de 250 metros), garantindo acesso fácil e rápido ao mar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>As acomodações possuem cozinha privativa?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim, todos os nossos apartamentos contam com uma cozinha completa e equipada (fogão, geladeira, utensílios de cozinha), proporcionando total liberdade e independência para preparar suas refeições.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>A pousada aceita animais de estimação (Pet Friendly)?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Somos apaixonados por animais e seu pet é super bem-vindo na Hospedaria Catarina. Pedimos apenas que nos avise no momento da reserva.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como funciona o estacionamento na hospedaria?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oferecemos estacionamento privativo e gratuito dentro da propriedade para a segurança e comodidade do seu veículo durante toda a estadia.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Qual o melhor período para avistar as Baleias Franca na Praia da Gamboa?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A temporada oficial de observação das Baleias Franca ocorre de Agosto a Novembro, sendo o auge do avistamento entre Setembro e Outubro, onde é possível observá-las diretamente da orla da Gamboa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="localizacao" class="location-section">
+            <div class="container">
+                <div class="grid grid-2-cols gap-large">
+                    <div class="location-info reveal">
+                        <span class="section-badge">Localização</span>
+                        <h2 class="section-title">Como chegar até a Hospedaria</h2>
+                        
+                        <div class="address-box">
+                            <div class="address-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Nosso Endereço</h4>
+                                <p>Rua Maria Fernandes do Nascimento (Acesso pela Avenida Principal)</p>
+                                <p>Praia da Gamboa, Garopaba - SC, CEP 88495-000</p>
+                                <p class="plus-code"><i class="fa-solid fa-map-pin"></i> Plus Code: 29R9+69 Garopaba, SC</p>
+                            </div>
+                        </div>
+                        
+                        <div class="instructions-box">
+                            <h4><i class="fa-solid fa-compass"></i> Instruções detalhadas de acesso:</h4>
+                            <p class="instruction-text">"Na avenida principal da Gamboa, passe o <strong>Mercado Melo</strong> e dobre imediatamente à esquerda na <strong>Rua Maria Fernandes do Nascimento</strong>. Depois, dobre em seguida à esquerda novamente para chegar à pousada."</p>
+                        </div>
+                        
+                        <a href="https://maps.app.goo.gl/EAibndpFHrNfdKwj8" target="_blank" rel="noopener" class="btn btn-primary btn-icon-right">
+                            Abrir Rotas no Google Maps <i class="fa-solid fa-route"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="map-container reveal">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.8497673523274!2d-48.647185!3d-27.959393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526adab45be6703%3A0x7d6f5fb4ad9c2d1b!2sHospedaria%20Catarina%20Gamboa%20S.C!5e0!3m2!1spt-BR!2sbr!4v1689620000000!5m2!1spt-BR!2sbr" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Mapa de localização da Hospedaria Catarina Gamboa">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col-about">
+                <picture>
+                    <source srcset="fotos/logo.webp" type="image/webp">
+                    <img src="fotos/logo.png" alt="Logo Hospedaria Catarina" class="footer-logo">
+                </picture>
+                <p>Seu descanso merecido na Praia da Gamboa, cercado pela beleza dos morros, das dunas e do mar. Aberto o ano todo.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram da Hospedaria"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="open-contact-btn" aria-label="Contato via WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col-links">
+                <h4>Links Úteis</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">A Pousada</a></li>
+                    <li><a href="#baleias">Baleias Franca</a></li>
+                    <li><a href="#quartos">Acomodações</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col-contact">
+                <h4>Contato & Reservas</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-phone"></i> <span>(48) 99900-1222</span></li>
+                    <li><i class="fa-solid fa-envelope"></i> <span>contato@hospedariacatarinagamboa.com.br</span></li>
+                    <li><i class="fa-solid fa-clock"></i> <span>Atendimento todos os dias</span></li>
+                </ul>
+                <button class="btn btn-secondary open-contact-btn">Ver Informações de Contato</button>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Hospedaria Catarina Gamboa. Todos os direitos reservados.</p>
+                <p>Desenvolvido com carinho 🌊</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Imagem ampliada">
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Contact Info Modal (Popup) -->
+    <div class="contact-modal" id="contactModal">
+        <div class="contact-modal-card">
+            <button class="contact-modal-close" id="contactModalClose" aria-label="Fechar">&times;</button>
+            <div class="contact-modal-header">
+                <div class="contact-modal-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <h3>Solicitar Reserva</h3>
+                <p>Consulte tarifas e datas diretamente com a Hospedaria.</p>
+            </div>
+            <div class="contact-modal-body">
+                <p class="intro-p">Atendimento humanizado feito diretamente com a **Dona Catarina** para lhe oferecer a melhor tarifa.</p>
+                
+                <div class="contact-card-badge">
+                    <div class="badge-icon"><i class="fa-brands fa-whatsapp text-success"></i></div>
+                    <div class="badge-details">
+                        <span class="badge-label">WhatsApp de Reservas</span>
+                        <span class="badge-value">(48) 99900-1222</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card-badge">
+                    <div class="badge-icon"><i class="fa-brands fa-instagram text-accent"></i></div>
+                    <div class="badge-details">
+                        <span class="badge-label">Siga no Instagram</span>
+                        <span class="badge-value">instagram.com</span>
+                    </div>
+                </div>
+                
+                <div class="contact-action-note">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Por favor, anote ou copie o número de telefone acima para entrar em contato no seu celular ou envie uma mensagem no perfil do Instagram. Dona Catarina terá grande alegria em receber você!</span>
+                </div>
+            </div>
+            <div class="contact-modal-footer">
+                <button class="btn btn-primary" id="contactModalOkBtn">Entendido</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+</body>
+</html>
